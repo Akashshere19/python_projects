@@ -42,7 +42,7 @@ def managementStudent():
                 print("=> {}".format(students))
     elif(userInput == 3):
         srcstd = input("Enter Student Name To Search:")
-        if(scrstd in liststd):
+        if(srcstd in liststd):
             print("\n=> Record Found of Student {}".format(srcstd))
         else:
             print("\n=> No Record Found of Student {}".format(srcstd))
